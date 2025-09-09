@@ -2,7 +2,7 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run docs:build"
+    "build": "echo 'here build the app'"
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
   }
 }
