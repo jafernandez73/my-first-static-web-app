@@ -2,7 +2,7 @@
   "name": "vanilla-basic",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo \"here build the app\"",
+    "build": "echo \"here build the app\" && cp /src /dist",
     "start": "sirv ./src public --cors --single --no-clear --port 8000"
   }
 }
